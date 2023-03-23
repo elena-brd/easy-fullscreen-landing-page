@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #262626;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    color: #262626;
+    background: #f4f4f4;
+    padding: 0.7rem 1.3rem;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #3A3535;
+    color: #fff;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+#showcase h1 {
+    font-size: 3.3rem;
+}
+
+#showcase p {
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+
+#section-a {
+    background: #3A3535;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#section-b {
+    background: #f4f4f4;
+    color: #262626;
+    padding: 2rem;
+    text-align: center;
+}
+
+#section-c div {
+    padding: 2rem;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: #3A3535;
+    color: #fff;
+}
